@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DbLikedList">
+      <UniqueIdentifier>{5b080fd3-c0f2-432b-8b5b-aceac9895da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DynamicArray">
+      <UniqueIdentifier>{c7718e82-9d3d-4360-becd-9143928f420f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyString">
+      <UniqueIdentifier>{1b617a9d-c06f-4255-aa8a-ae38623bc396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyAbstructCls">
+      <UniqueIdentifier>{635557e2-90f7-4c27-b857-f2afaa75c971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\clsQueueLineDTS">
+      <UniqueIdentifier>{6a6352ae-0cbb-4e49-b102-2be622585ce4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DblLikedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyDblLinkedList.h">
+      <Filter>Header Files\DbLikedList</Filter>
+    </ClInclude>
+    <ClInclude Include="MyQueue.h">
+      <Filter>Header Files\DbLikedList</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStack.h">
+      <Filter>Header Files\DbLikedList</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyString.h">
+      <Filter>Header Files\MyString</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDynamicArray.h">
+      <Filter>Header Files\DynamicArray</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInterFaceCls.h">
+      <Filter>Header Files\MyAbstructCls</Filter>
+    </ClInclude>
+    <ClInclude Include="clsmyQueueArr.h">
+      <Filter>Header Files\DynamicArray</Filter>
+    </ClInclude>
+    <ClInclude Include="clsmystackArr.h">
+      <Filter>Header Files\DynamicArray</Filter>
+    </ClInclude>
+    <ClInclude Include="clsQueueLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
